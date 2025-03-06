@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پورتفولیو شخصی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+        body { font-family: 'Vazirmatn', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center fixed w-full top-0 z-50">
+        <h1 class="text-2xl font-bold text-gray-800">Sahar</h1>
+        <nav class="hidden md:flex space-x-4">
+            <a href="#about" class="text-gray-600 hover:text-blue-500 transition">درباره من</a>
+            <a href="#projects" class="text-gray-600 hover:text-blue-500 transition">پروژه‌ها</a>
+            
+            <a href="#skills" class="text-gray-600 hover:text-blue-500 transition">مهارت‌ها</a>
+            <a href="#contact" class="text-gray-600 hover:text-blue-500 transition">تماس</a>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="flex flex-col items-center justify-center h-screen text-center bg-gradient-to-r from-blue-400 to-purple-500 text-white">
+        <img src="C:\Users\saharr\OneDrive\Pictures\th.jpeg" alt="Profile Picture" class="w-40 h-40 rounded-full shadow-lg border-4 border-white mb-4">
+        <h2 class="text-5xl font-bold">سلام، من <span class="text-yellow-300">سحر</span> هستم.</h2>
+        <p class="text-xl mt-2">مهندس کامپیوتر | برنامه‌نویس</p>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-12 px-6 text-center bg-white">
+        <h2 class="text-3xl font-bold text-gray-900">درباره من</h2>
+        <p class="text-gray-700 mt-4 max-w-2xl mx-auto">من دانشجوی مهندسی کامپیوتر در دانشگاه صنعتی ارومیه هستم و علاقه زیادی به برنامه‌نویسی، هوش مصنوعی و طراحی وب دارم.</p>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 px-6 bg-gray-50 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">پروژه‌ها</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                <h3 class="text-xl font-bold">الگوریتم مرتب‌سازی انتخابی</h3>
+                <p class="text-gray-600 mt-2">یک الگوریتم مرتب‌سازی ساده و کارآمد برای لیست‌های کوچک.</p>
+                <a href="C:\Users\saharr\OneDrive\Desktop\selection sort.py" class="text-blue-500 mt-2 block">مشاهده پروژه</a>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                <h3 class="text-xl font-bold">مرتب‌سازی حبابی</h3>
+                <p class="text-gray-600 mt-2">الگوریتمی ساده که با جابجایی عناصر، لیست را مرتب می‌کند.</p>
+                <a href="C:\Users\saharr\OneDrive\Desktop\bubble sort.py" class="text-blue-500 mt-2 block">مشاهده پروژه</a>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                <h3 class="text-xl font-bold">جستجوی خطی</h3>
+                <p class="text-gray-600 mt-2">الگوریتمی برای یافتن یک مقدار خاص در لیست.</p>
+                <a href="C:\Users\saharr\OneDrive\Desktop\do_doyi and liner.py" class="text-blue-500 mt-2 block">مشاهده پروژه</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 px-6 bg-white text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-2">مهارت‌های من</h2>
+        <div class="flex flex-wrap justify-center gap-4 mt-4">
+            <span class="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md">Python 🐍</span>
+            <span class="bg-green-500 text-white px-4 py-2 rounded-lg shadow-md">C++ 📌</span>
+            <span class="bg-red-500 text-white px-4 py-2 rounded-lg shadow-md">Java ☕</span>
+            <span class="bg-purple-500 text-white px-4 py-2 rounded-lg shadow-md">HTML & CSS 🎨</span>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 px-6 bg-gray-50 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">تماس با من</h2>
+        <p class="text-lg text-gray-700">📧 ایمیل: sahar@example.com</p>
+        <p class="text-lg text-gray-700">📞 تلفن: 012345678</p>
+        <div class="flex justify-center gap-4 mt-4">
+            <a href="#" class="text-blue-500 text-2xl"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-gray-700 text-2xl"><i class="fab fa-github"></i></a>
+            <a href="#" class="text-red-500 text-2xl"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        &copy; 2025 تمامی حقوق محفوظ است.
+    </footer>
+    
+</body>
+</html>
